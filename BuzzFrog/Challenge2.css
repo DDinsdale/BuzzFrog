@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    background-color: lightgreen;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: grey;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+h3{
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+}
+.qbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.superbigqbox{
+    display:flex;
+    flex-direction: row;
+}
+.bigqbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.question{
+    display: flex;
+    background-color: lightcoral;
+    margin-bottom: 12px;
+    align-items: left;
+    width: 700px;
+    padding-inline: 6px;
+    height: 90px;
+    
+}
+.answer{
+    display: flex;
+    background-color: lightskyblue;
+    flex-direction: column;
+    
+}
+.heading{
+    display: flex;
+    background-color: lightsalmon;
+    padding-inline: 400px;
+}
+.submit{
+    display: flex;
+    background-color: lightsalmon;
+    padding-inline: 100px;
+    border-color: lightsalmon;
+}
+
+.yellow{
+    display: flex;
+    background-color: yellow;
+    margin-inline: 20px;
+    margin-block: 12px;
+    padding-inline: 50px;
+}
+p{
+    font-size:20px;
+    color: grey;
+}
+.button{
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+.button:disabled{
+    background-color: lightblue;
+    border-color: lightblue;
+}
+.button:hover{
+    background-color: blue;
+    border-color: blue;
+}
+.button:focus{
+    background-color: blue;
+    border-color: blue;
+}
